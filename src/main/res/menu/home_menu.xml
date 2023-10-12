@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pharmaciesFragment"
+        android:title="Pharmacies"
+        android:icon="@drawable/ic_local_pharmacy"/>
+
+    <item
+        android:id="@+id/commandesFragment"
+        android:title="Commandes"
+        android:icon="@drawable/ic_commande"/>
+
+    <item
+        android:id="@+id/traitementsFragment"
+        android:title="Traitements"
+        android:icon="@drawable/ic_medical_services"/>
+</menu>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">TDM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="Villes">
+        <item>All</item>
+        <item>Bab El Oued</item>
+        <item>Bologhine</item>
+        <item>Casbah</item>
+        <item>Baraki</item>
+        <item>Djasr Kasentina</item>
+        <item>Bouzareah</item>
+        <item>Aïn Bénian</item>
+        <item>Chéraga</item>
+        <item>Bab Ezzouar</item>
+        <item>Dar El Beïda</item>
+        <item>Bordj El Kiffan</item>
+        <item>Draria</item>
+        <item>El Achour</item>
+        <item>El Harrach</item>
+        <item>Kouba</item>
+        <item>Mohamed Belouizdad</item>
+        <item>Reghaïa</item>
+        <item>Rouïba</item>
+        <item>Alger Centre</item>
+        <item>Staoueli</item>
+        <item>Zéralda</item>
+    </string-array>
+
+</resources>

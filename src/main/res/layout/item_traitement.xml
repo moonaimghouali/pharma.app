@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="3dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_traitementId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/hv_bold"
+                android:text="Traitement N22-09"
+                android:textColor="@color/green"
+                android:textSize="22sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_pharmcieName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Date debut :"
+                android:textColor="@color/black_hint"
+                app:layout_constraintStart_toStartOf="@+id/tv_traitementId"
+                app:layout_constraintTop_toBottomOf="@+id/tv_traitementId" />
+
+            <TextView
+                android:id="@+id/tv_info2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Duree :"
+                android:textColor="@color/black_hint"
+                app:layout_constraintStart_toStartOf="@+id/tv_pharmcieName"
+                app:layout_constraintTop_toBottomOf="@+id/tv_pharmcieName" />
+
+            <TextView
+                android:id="@+id/tv_dateDebut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="12 Novembre 2021"
+                android:textColor="@color/black_text"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_pharmcieName"
+                app:layout_constraintStart_toEndOf="@+id/tv_pharmcieName" />
+
+            <TextView
+                android:id="@+id/tv_Duree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="20 Jrs"
+                android:textColor="@color/black_text"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_info2"
+                app:layout_constraintStart_toEndOf="@+id/tv_info2" />
+
+            <TextView
+                android:id="@+id/tv_infoMedicaments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/hv_meduim"
+                android:text="Medicaments"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/tv_info2"
+                app:layout_constraintTop_toBottomOf="@+id/tv_info2" />
+
+            <TextView
+                android:id="@+id/tv_medicament"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingExtra="6sp"
+                android:textColor="@color/black_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_infoMedicaments"
+                app:layout_constraintTop_toBottomOf="@+id/tv_infoMedicaments" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

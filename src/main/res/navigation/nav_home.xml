@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/pharmaciesFragment">
+
+    <fragment
+        android:id="@+id/pharmaciesFragment"
+        android:name="com.example.tdm.PharmaciesFragment"
+        android:label="fragment_pharmacies"
+        tools:layout="@layout/fragment_pharmacies" />
+    <fragment
+        android:id="@+id/commandesFragment"
+        android:name="com.example.tdm.CommandesFragment"
+        android:label="fragment_commandes"
+        tools:layout="@layout/fragment_commandes" />
+    <fragment
+        android:id="@+id/traitementsFragment"
+        android:name="com.example.tdm.TraitementsFragment"
+        android:label="fragment_traitements"
+        tools:layout="@layout/fragment_traitements" />
+</navigation>
